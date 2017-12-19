@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import ListOfSwordsContainer from "./containers/ListOfSwordsContainer";
+import CreateSwordContainer from "./containers/CreateSwordContainer";
 
 class App extends Component {
   constructor() {
@@ -10,7 +12,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        Client
+        <ListOfSwordsContainer />
+        <CreateSwordContainer />
       </div>
     );
   }
