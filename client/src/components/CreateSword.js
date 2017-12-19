@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-//import ListOfSwords from "./ListOfSwords";
+import ListOfSwords from "./ListOfSwords";
 
 class CreateSword extends Component {
   constructor() {
